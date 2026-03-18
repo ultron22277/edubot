@@ -1,0 +1,12 @@
+venv/
+.venv/
+.env
+__pycache__/
+*.pyc
+node_modules/
+*.egg-info/
+.DS_Store
+ml/data/raw/*
+ml/data/processed/*
+!ml/data/raw/.gitkeep
+!ml/data/processed/.gitkeep
