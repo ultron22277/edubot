@@ -15,3 +15,4 @@ ml/training/intent_model/
 *.pt
 *.bin
 *.safetensors
+ml/data/vectorstore/
