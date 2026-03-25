@@ -252,6 +252,42 @@ data = [
     {"text": "Is ICTAK a non profit organisation?", "label": "about"},
     {"text": "What is the ICTAK corporate training division?", "label": "about"},
     {"text": "Does ICTAK work with government projects?", "label": "about"},
+    # more distinct about examples
+    {"text": "Tell me the history of ICTAK", "label": "about"},
+    {"text": "What year was ICT Academy established", "label": "about"},
+    {"text": "Who manages ICT Academy of Kerala", "label": "about"},
+    {"text": "What is the background of ICTAK", "label": "about"},
+    {"text": "Describe ICT Academy of Kerala", "label": "about"},
+    {"text": "What are ICTAK achievements", "label": "about"},
+    {"text": "Is ICTAK government or private", "label": "about"},
+    {"text": "What does ICTAK stand for", "label": "about"},
+    # more distinct admissions examples
+    {"text": "How to submit application form", "label": "admissions"},
+    {"text": "What is the enrollment procedure", "label": "admissions"},
+    {"text": "When is the admission open", "label": "admissions"},
+    {"text": "What qualifications do I need to join", "label": "admissions"},
+    {"text": "Can diploma holders apply", "label": "admissions"},
+    {"text": "Is there an online application form", "label": "admissions"},
+    {"text": "What is the selection criteria", "label": "admissions"},
+    {"text": "How many rounds are there in selection", "label": "admissions"},
+    # more distinct fees examples
+    {"text": "What is the total tuition fee", "label": "fees"},
+    {"text": "How much money do I need to pay", "label": "fees"},
+    {"text": "Is there any free course available", "label": "fees"},
+    {"text": "What is the cost of certification", "label": "fees"},
+    {"text": "How much is KKEM financial support", "label": "fees"},
+    {"text": "Is there zero fee program", "label": "fees"},
+    {"text": "What is the program pricing", "label": "fees"},
+    {"text": "How much scholarship will I receive", "label": "fees"},
+    # more distinct programs examples
+    {"text": "List all available technology courses", "label": "programs"},
+    {"text": "Which programming languages are taught", "label": "programs"},
+    {"text": "What technology stack is covered", "label": "programs"},
+    {"text": "Is there a software testing program", "label": "programs"},
+    {"text": "What is the curriculum of data science", "label": "programs"},
+    {"text": "Which cloud platform is taught in course", "label": "programs"},
+    {"text": "Is React taught in full stack course", "label": "programs"},
+    {"text": "What frameworks are covered in MERN course", "label": "programs"},
 ]
 
 with open("ml/data/processed/intent_data.json", "w") as f:
