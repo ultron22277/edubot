@@ -3,16 +3,22 @@ import os
 import chromadb
 from sentence_transformers import SentenceTransformer
 
+BASE_DIR = os.path.dirname(
+    os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+)
+
 
 # ── Load ICTAK data ───────────────────────────────────────────────────────────
 def load_data():
-    with open("ml/data/processed/ictak_cleaned.json", "r", encoding="utf-8") as f:
+    path = os.path.join(BASE_DIR, "ml", "data", "processed", "ictak_cleaned.json")
+    with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
 # ── Setup ChromaDB ────────────────────────────────────────────────────────────
 def setup_vectorstore():
-    client = chromadb.PersistentClient(path="ml/data/vectorstore")
+    path = os.path.join(BASE_DIR, "ml", "data", "vectorstore")
+    client = chromadb.PersistentClient(path=path)
     collection = client.get_or_create_collection(name="ictak_knowledge")
     return collection
 
@@ -57,8 +63,6 @@ def get_answer(query, collection, embedder):
     results = search(query, collection, embedder)
     if not results:
         return "Sorry, I could not find an answer to your question."
-
-    # Return the best matching answer
     best_match = results[0]
     return best_match["answer"]
 
@@ -79,7 +83,6 @@ if __name__ == "__main__":
         "What is ICT Academy of Kerala?",
         "How long is the course?",
     ]
-
     for q in test_questions:
         answer = get_answer(q, collection, embedder)
         print(f"Q: {q}")
