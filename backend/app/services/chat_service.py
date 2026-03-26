@@ -25,10 +25,15 @@ def classify_intent(question, classifier):
     return pred, confidence
 
 
-# ── Miscellaneous response ────────────────────────────────────────────────────
+# ── Responses ─────────────────────────────────────────────────────────────────
 MISC_RESPONSE = (
     "I can only answer questions about ICT Academy of Kerala. "
     "You can ask me about courses, admissions, fees, contact details, or about ICTAK."
+)
+
+LOW_CONFIDENCE_RESPONSE = (
+    "I don't have enough information regarding this. "
+    "Please contact ICTAK directly at info@ictkerala.org or call +91 75 940 51437."
 )
 
 
@@ -46,7 +51,16 @@ def chat(question: str, classifier, collection, embedder) -> dict:
             "confidence": round(confidence, 1),
         }
 
-    # Step 3 — get answer from RAG
+    # Step 3 — low confidence check
+    if confidence < 40:
+        return {
+            "question": question,
+            "answer": LOW_CONFIDENCE_RESPONSE,
+            "intent": "unknown",
+            "confidence": round(confidence, 1),
+        }
+
+    # Step 4 — get answer from RAG
     answer = get_answer(question, collection, embedder)
 
     return {
