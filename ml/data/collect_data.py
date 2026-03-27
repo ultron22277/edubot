@@ -31,7 +31,7 @@ FAQ_DATA = [
     },
     {
         "question": "What is the fee for ICTAK courses?",
-        "answer": "ICTAK does not publish course fees publicly. The fee details are shared after registration. However, scholarships of 70% to 100% are available. Registration fee is Rs 250. Contact info@ictkerala.org or call +91 75 940 51437 for fee details.",
+        "answer": "We'd love to help! The fee details for courses are shared personally after registration. Please contact our team at +91 75 940 51437 or email info@ictkerala.org and they will be happy to assist.",
     },
     {
         "question": "Is there a scholarship for female candidates?",
@@ -51,19 +51,19 @@ FAQ_DATA = [
     },
     {
         "question": "How much does the Data Science course cost?",
-        "answer": "The exact fee is shared after registration. Scholarships of 70% to 100% are available based on entrance test performance. Contact info@ictkerala.org for exact fee details.",
+        "answer": "We'd love to help! The fee details for the Data Science course are shared personally after registration. Please contact our team at +91 75 940 51437 or email info@ictkerala.org and they will be happy to assist you.",
     },
     {
         "question": "How much does the Full Stack Developer course cost?",
-        "answer": "The exact fee is shared after registration. Scholarships of 70% to 100% are available based on entrance test performance. Contact info@ictkerala.org for exact fee details.",
+        "answer": "We'd love to help! The fee details for the Full Stack Developer course are shared personally after registration. Please contact our team at +91 75 940 51437 or email info@ictkerala.org and they will be happy to assist you.",
     },
     {
         "question": "How much does the AI ML course cost?",
-        "answer": "The exact fee is shared after registration. Scholarships of 70% to 100% are available based on entrance test performance. Contact info@ictkerala.org for exact fee details.",
+        "answer": "We'd love to help! The fee details for the AI and Machine Learning course are shared personally after registration. Please contact our team at +91 75 940 51437 or email info@ictkerala.org and they will be happy to assist you.",
     },
     {
         "question": "How much does the Cyber Security course cost?",
-        "answer": "The exact fee is shared after registration. Scholarships of 70% to 100% are available based on entrance test performance. Contact info@ictkerala.org for exact fee details.",
+        "answer": "We'd love to help! The fee details for the Cyber Security course are shared personally after registration. Please contact our team at +91 75 940 51437 or email info@ictkerala.org and they will be happy to assist you.",
     },
     {
         "question": "Is there any free course at ICTAK?",
@@ -140,6 +140,66 @@ FAQ_DATA = [
     {
         "question": "What partner badges are provided?",
         "answer": "Microsoft and Robotic Process Automation by Automation Anywhere.",
+    },
+    {
+        "question": "How much does the SDET course cost?",
+        "answer": "We'd love to help! The fee details for the Certified Specialist in SDET course are shared personally after registration. Please contact our team at +91 75 940 51437 or email info@ictkerala.org and they will be happy to assist you.",
+    },
+    {
+        "question": "How much does the Flutter Developer course cost?",
+        "answer": "We'd love to help! The fee details for the Certified Flutter Developer course are shared personally after registration. Please contact our team at +91 75 940 51437 or email info@ictkerala.org and they will be happy to assist you.",
+    },
+    {
+        "question": "How much does the DevOps with Azure course cost?",
+        "answer": "We'd love to help! The fee details for the DevOps with Azure course are shared personally after registration. Please contact our team at +91 75 940 51437 or email info@ictkerala.org and they will be happy to assist you.",
+    },
+    {
+        "question": "How much does the Digital Marketing course cost?",
+        "answer": "We'd love to help! The fee details for the Digital Marketing with AI course are shared personally after registration. Please contact our team at +91 75 940 51437 or email info@ictkerala.org and they will be happy to assist you.",
+    },
+    {
+        "question": "How much does the AWS course cost?",
+        "answer": "We'd love to help! The fee details for the AWS Certified Developer course are shared personally after registration. Please contact our team at +91 75 940 51437 or email info@ictkerala.org and they will be happy to assist you.",
+    },
+    {
+        "question": "How much does the UI UX Design course cost?",
+        "answer": "We'd love to help! The fee details for the UI/UX Design in Figma course are shared personally after registration. Please contact our team at +91 75 940 51437 or email info@ictkerala.org and they will be happy to assist you.",
+    },
+    {
+        "question": "How much does the Java Programming course cost?",
+        "answer": "We'd love to help! The fee details for the Java Programming course are shared personally after registration. Please contact our team at +91 75 940 51437 or email info@ictkerala.org and they will be happy to assist you.",
+    },
+    {
+        "question": "How much does the Python Programming course cost?",
+        "answer": "We'd love to help! The fee details for the Python Programming course are shared personally after registration. Please contact our team at +91 75 940 51437 or email info@ictkerala.org and they will be happy to assist you.",
+    },
+    {
+        "question": "How much does the Power BI course cost?",
+        "answer": "We'd love to help! The fee details for the Business Intelligence with Power BI course are shared personally after registration. Please contact our team at +91 75 940 51437 or email info@ictkerala.org and they will be happy to assist you.",
+    },
+    {
+        "question": "How much does the Cloud Computing course cost?",
+        "answer": "We'd love to help! The fee details for the Cloud Computing and Deployment Strategies course are shared personally after registration. Please contact our team at +91 75 940 51437 or email info@ictkerala.org and they will be happy to assist you.",
+    },
+    {
+        "question": "How much does the BIM course cost?",
+        "answer": "We'd love to help! The fee details for the BIMLABS Certified BIM Modeller Program are shared personally after registration. Please contact our team at +91 75 940 51437 or email info@ictkerala.org and they will be happy to assist you.",
+    },
+    {
+        "question": "How much does the Health Information Technology course cost?",
+        "answer": "We'd love to help! The fee details for the Certified Specialist in Health Information Technology course are shared personally after registration. Please contact our team at +91 75 940 51437 or email info@ictkerala.org and they will be happy to assist you.",
+    },
+    {
+        "question": "How much does the Executive AIML program cost?",
+        "answer": "We'd love to help! The fee details for the Executive Program in Advanced AIML are shared personally after registration. Please contact our team at +91 75 940 51437 or email info@ictkerala.org and they will be happy to assist you.",
+    },
+    {
+        "question": "How much does the Data Analysis course cost?",
+        "answer": "We'd love to help! The fee details for the Data Analysis and Visualisation course are shared personally after registration. Please contact our team at +91 75 940 51437 or email info@ictkerala.org and they will be happy to assist you.",
+    },
+    {
+        "question": "What is the fee for any course at ICTAK?",
+        "answer": "We'd love to help! Fee details for all ICTAK courses are shared personally after registration. For accurate information, please contact our friendly team at +91 75 940 51437 or email info@ictkerala.org. They will guide you through the fee structure and available scholarships.",
     },
 ]
 
