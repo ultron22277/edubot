@@ -68,21 +68,42 @@ body {
   margin-top: 2px;
 }
 
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+}
+
 .header-status {
   font-size: 12px;
-  color: #90ee90;
   display: flex;
   align-items: center;
   gap: 5px;
 }
 
+.header-status.online {
+  color: #90ee90;
+}
+
+.header-status.offline {
+  color: #ff6b6b;
+}
+
 .dot {
   width: 8px;
   height: 8px;
-  background: #90ee90;
   border-radius: 50%;
   display: inline-block;
   animation: pulse 1.5s infinite;
+}
+
+.online .dot {
+  background: #90ee90;
+}
+
+.offline .dot {
+  background: #ff6b6b;
 }
 
 @keyframes pulse {
@@ -95,6 +116,19 @@ body {
   50% {
     opacity: 0.4;
   }
+}
+
+.clear-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.clear-btn:hover {
+  opacity: 1;
 }
 
 /* ── Subheader ── */
@@ -129,7 +163,7 @@ body {
 
 .message {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   gap: 8px;
 }
 
@@ -140,7 +174,7 @@ body {
 .avatar {
   font-size: 22px;
   flex-shrink: 0;
-  margin-bottom: 16px;
+  margin-top: 4px;
 }
 
 .bubble-wrap {
@@ -218,6 +252,30 @@ body {
   }
 }
 
+/* ── Suggestions ── */
+.suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.suggestions button {
+  padding: 4px 10px;
+  border: 1px solid #2980b9;
+  border-radius: 14px;
+  background: white;
+  color: #2980b9;
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.suggestions button:hover {
+  background: #2980b9;
+  color: white;
+}
+
 /* ── Quick replies ── */
 .quick-replies {
   padding: 8px 12px;
@@ -277,6 +335,11 @@ body {
   background: white;
 }
 
+.input-area input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
 .input-area button {
   width: 42px;
   height: 42px;
@@ -305,4 +368,17 @@ body {
   padding: 6px;
   background: white;
   border-top: 1px solid #f0f0f0;
+}
+
+/* ── Mobile friendly ── */
+@media (max-width: 480px) {
+  .app {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+  }
+
+  body {
+    padding: 0;
+  }
 }
