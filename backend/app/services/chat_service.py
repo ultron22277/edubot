@@ -39,6 +39,9 @@ LOW_CONFIDENCE_RESPONSE = (
 
 # ── Main chat function ────────────────────────────────────────────────────────
 def chat(question: str, classifier, collection, embedder) -> dict:
+    # Clean the question — remove quotes and extra spaces
+    question = question.strip().strip('"').strip("'").strip()
+
     # Step 1 — classify intent
     intent, confidence = classify_intent(question, classifier)
 

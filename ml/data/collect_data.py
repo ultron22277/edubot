@@ -26,6 +26,78 @@ def scrape_page(url):
 # ── FAQ data (already collected from website) ────────────────────────────────
 FAQ_DATA = [
     {
+        "question": "Do you offer AI ML courses?",
+        "answer": "Yes! ICTAK offers the Certified Specialist in Artificial Intelligence and Machine Learning program. It is an Industry Readiness Program available online and offline. For fee details contact +91 75 940 51437.",
+    },
+    {
+        "question": "Do you offer AIML training?",
+        "answer": "Yes! ICTAK offers the Certified Specialist in Artificial Intelligence and Machine Learning program. It is an Industry Readiness Program available online and offline. For fee details contact +91 75 940 51437.",
+    },
+    {
+        "question": "Is there artificial intelligence course?",
+        "answer": "Yes! ICTAK offers the Certified Specialist in Artificial Intelligence and Machine Learning program. Available online and offline. For fee details contact +91 75 940 51437.",
+    },
+    {
+        "question": "Do you have machine learning program?",
+        "answer": "Yes! ICTAK offers the Certified Specialist in Artificial Intelligence and Machine Learning program. Available online and offline. For fee details contact +91 75 940 51437.",
+    },
+    {
+        "question": "Do you offer cybersecurity training?",
+        "answer": "Yes! ICTAK offers the Certified Cyber Security Analyst program. It is an Industry Readiness Program available in both online and offline modes. For more details please contact +91 75 940 51437 or email info@ictkerala.org.",
+    },
+    {
+        "question": "Do you offer AI and ML courses?",
+        "answer": "Yes! ICTAK offers the Certified Specialist in Artificial Intelligence and Machine Learning program. It is an Industry Readiness Program available online and offline. For more details contact +91 75 940 51437.",
+    },
+    {
+        "question": "Do you offer data science course?",
+        "answer": "Yes! ICTAK offers the Certified Specialist in Data Science and Analytics program. It is a 6 month Industry Readiness Program with internship. For more details contact +91 75 940 51437.",
+    },
+    {
+        "question": "Do you offer full stack developer course?",
+        "answer": "Yes! ICTAK offers the Certified Full Stack Developer with Generative AI Integration (MERN) program. Available online and offline. For more details contact +91 75 940 51437.",
+    },
+    {
+        "question": "Do you offer Python programming course?",
+        "answer": "Yes! ICTAK offers Python Programming as an Essential Skill Program. Available online and offline. For more details contact +91 75 940 51437.",
+    },
+    {
+        "question": "Do you offer Java programming course?",
+        "answer": "Yes! ICTAK offers Java Programming as an Essential Skill Program. Available online and offline. For more details contact +91 75 940 51437.",
+    },
+    {
+        "question": "Do you offer digital marketing course?",
+        "answer": "Yes! ICTAK offers Mastering Digital Marketing with AI as an Upskilling Program. Available online and offline. For more details contact +91 75 940 51437.",
+    },
+    {
+        "question": "Do you offer DevOps training?",
+        "answer": "Yes! ICTAK offers DevOps with Azure as an Upskilling Program. Available online and offline. For more details contact +91 75 940 51437.",
+    },
+    {
+        "question": "Do you offer flutter developer course?",
+        "answer": "Yes! ICTAK offers the Certified Flutter Developer program as an Upskilling Program. Available online and offline. For more details contact +91 75 940 51437.",
+    },
+    {
+        "question": "Do you offer AWS course?",
+        "answer": "Yes! ICTAK offers the AWS Certified Developer program as an Upskilling Program. Available online and offline. For more details contact +91 75 940 51437.",
+    },
+    {
+        "question": "Do you offer UI UX design course?",
+        "answer": "Yes! ICTAK offers UI/UX Design in Figma as an Upskilling Program. Available online and offline. For more details contact +91 75 940 51437.",
+    },
+    {
+        "question": "Do you offer Power BI course?",
+        "answer": "Yes! ICTAK offers Business Intelligence with Power BI as an Essential Skill Program. Available online and offline. For more details contact +91 75 940 51437.",
+    },
+    {
+        "question": "Do you offer cloud computing course?",
+        "answer": "Yes! ICTAK offers Cloud Computing and Deployment Strategies as a Partner Program. Available online and offline. For more details contact +91 75 940 51437.",
+    },
+    {
+        "question": "Do you offer SDET course?",
+        "answer": "Yes! ICTAK offers the Certified Specialist in SDET (Software Development Engineer in Test) as an Industry Readiness Program. For more details contact +91 75 940 51437.",
+    },
+    {
         "question": "What is the registration fee?",
         "answer": "The registration fee is Rs 250 and it is non-refundable.",
     },
@@ -218,12 +290,28 @@ CONTACT_DATA = [
         "answer": "G1, Ground Floor, Thejaswini, Technopark Campus, Thiruvananthapuram, Kerala, India – 695 581. Phone: +91 471 270 0811",
     },
     {
-        "question": "Where is the Regional Centre (Central)?",
-        "answer": "B-Wing, Kanikonna Villa, Infopark Campus Koratty, Thrissur, Kerala, India – 680 308. Phone: +91 480 273 1050",
+        "question": "Where is the ICTAK office?",
+        "answer": "ICT Academy of Kerala Headquarters is at G1, Ground Floor, Thejaswini, Technopark Campus, Thiruvananthapuram, Kerala, India - 695 581. Phone: +91 471 270 0811. Email: info@ictkerala.org",
     },
     {
-        "question": "Where is the Regional Centre (North)?",
-        "answer": "2nd Floor, UL Cyberpark Building, Nellikode Post, Kozhikode, Kerala, India – 673 016. Phone: +91 495 243 1432",
+        "question": "Where is the ICT Academy of Kerala located?",
+        "answer": "ICT Academy of Kerala has 3 locations. Headquarters: Thejaswini, Technopark Campus, Thiruvananthapuram - 695 581, Phone: +91 471 270 0811. Central Regional Centre: Infopark Campus Koratty, Thrissur - 680 308, Phone: +91 480 273 1050. North Regional Centre: UL Cyberpark Building, Kozhikode - 673 016, Phone: +91 495 243 1432.",
+    },
+    {
+        "question": "What is the address of ICTAK?",
+        "answer": "ICTAK Headquarters: G1, Ground Floor, Thejaswini, Technopark Campus, Thiruvananthapuram, Kerala - 695 581. Phone: +91 471 270 0811. Email: info@ictkerala.org",
+    },
+    {
+        "question": "Where is ICTAK Thiruvananthapuram?",
+        "answer": "ICTAK Headquarters is at G1, Ground Floor, Thejaswini, Technopark Campus, Thiruvananthapuram, Kerala - 695 581. Phone: +91 471 270 0811.",
+    },
+    {
+        "question": "Where is ICTAK Thrissur?",
+        "answer": "ICTAK Regional Centre (Central) is at B-Wing, Kanikonna Villa, Infopark Campus Koratty, Thrissur, Kerala - 680 308. Phone: +91 480 273 1050.",
+    },
+    {
+        "question": "Where is ICTAK Kozhikode?",
+        "answer": "ICTAK Regional Centre (North) is at 2nd Floor, UL Cyberpark Building, Nellikode Post, Kozhikode, Kerala - 673 016. Phone: +91 495 243 1432.",
     },
     {
         "question": "How can I contact ICT Academy of Kerala?",
