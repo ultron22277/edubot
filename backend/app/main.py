@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-import pickle
 import sys
 import os
 
@@ -28,6 +27,10 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+# ── Global variables ──────────────────────────────────────────────────────────
+classifier = None
+collection = None
+embedder = None
 
 
 # ── Load everything on startup ────────────────────────────────────────────────
